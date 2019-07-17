@@ -8,6 +8,6 @@ if __name__ == "__main__":
     which_diff = input('Which Defferance you and me? : ')  
     me = str(sys.argv[2])  # pass parameter from command
     
-    allstr = "%s %s %s" % (you,which_diff,me)
+    allstr = "%s & %s , The Differnace is %s" % (you,which_diff,me)
     print(allstr)
     
